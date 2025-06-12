@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workshop</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
 </head>
 <body>
-     <!-- Animated Background -->
+     
     <div class="bg-particles" id="particles"></div>
 
-    <!-- Header -->
+ 
     <header class="header">
         <div class="nav-container">
-            <div class="logo">Workshop 2025</div>
+            <div class="logo">RSP </div>
             <nav class="nav-links">
                 <a href="#agenda">กำหนดการ</a>
                 <a href="#speakers">วิทยากร</a>
@@ -22,166 +25,328 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
+   
     <section class="hero">
         <div class="hero-content">
-            <h1>Workshop</h1>
+            <h1>RSP KNOWLEDGE SHARING 2025</h1>
             <p>ร่วมเรียนรู้เทคโนโลยี AI ล้ำสมัย พร้อมสร้างอนาคตดิจิทัลไปด้วยกัน</p>
             <a href="#agenda" class="cta-button">เริ่มต้นการเรียนรู้</a>
         </div>
     </section>
 
-    <!-- Quick Actions -->
+    
     <section class="section">
         <div class="quick-actions">
-            <div class="action-card">
-                <div class="action-icon">📍</div>
-                <h3>สถานที่จัดงาน</h3>
-                <p>อุทยานวิทยาศาสตร์ภูมิภาค ภาคใต้ มหาวิทยาลัยสงขลานครินทร์</p>
-                <a href="https://maps.app.goo.gl/mPL3MD88NYHL4Vku9" target="_blank" class="btn">ดูแผนที่</a>
-            </div>
-            
-            <div class="action-card">
-                <div class="action-icon">📸</div>
-                <h3>รูปภาพกิจกรรม</h3>
-                <p>ชมภาพบรรยากาศงาน</p>
-                <a href="https://drive.google.com/drive" target="_blank" class="btn">ดูรูปภาพ</a>
-            </div>
-            
-            <div class="action-card">
-                <div class="action-icon">🎁</div>
-                <h3>แบบสอบถาม</h3>
-                <p>รับของที่ระลึก</p>
-                <a href="https://forms.google.com" target="_blank" class="btn">ตอบแบบสอบถาม</a>
-            </div>
-            
-            <div class="action-card">
-                <div class="action-icon">⭐</div>
-                <h3>ประเมินการอบรม</h3>
-                <p>แบบประเมิน/Feedback</p>
-                <a href="https://forms.google.com" target="_blank" class="btn btn-primary">ให้คะแนน</a>
-            </div>
+        <div class="action-card">
+            <div class="action-icon" data-lucide="map-pin"></div>
+            <h3>สถานที่จัดงาน</h3>
+            <p>อุทยานวิทยาศาสตร์ภูมิภาค ภาคใต้ มหาวิทยาลัยสงขลานครินทร์</p>
+            <a href="https://maps.app.goo.gl/mPL3MD88NYHL4Vku9" target="_blank" class="btn">ดูแผนที่</a>
+        </div>
+
+        <div class="action-card">
+            <div class="action-icon" data-lucide="camera"></div>
+            <h3>รูปภาพกิจกรรม</h3>
+            <p>ชมภาพบรรยากาศงาน</p>
+            <a href="https://drive.google.com/drive/folders/1II0rXwfewiSjyYWdmkTHz6dJqH8CsDuW" target="_blank" class="btn">ดูรูปภาพ</a>
+        </div>
+
+        <div class="action-card">
+            <div class="action-icon" data-lucide="gift"></div>
+            <h3>แบบสอบถาม</h3>
+            <p>รับของที่ระลึก</p>
+            <a href="https://forms.google.com" target="_blank" class="btn">ตอบแบบสอบถาม</a>
+        </div>
+
+        <div class="action-card">
+            <div class="action-icon" data-lucide="star"></div>
+            <h3>ประเมินการอบรม</h3>
+            <p>แบบประเมิน/Feedback</p>
+            <a href="https://forms.google.com" target="_blank" class="btn btn-primary">ให้คะแนน</a>
+        </div>
         </div>
     </section>
 
-    <!-- Agenda Section -->
-    <section class="section" id="agenda">
-        <h2>กำหนดการงาน</h2>
-        <div class="agenda-table">
-            <table>
-                <thead>
-                    <tr>
-                        <th>เวลา</th>
-                        <th>กิจกรรม</th>
-                        <th>วิทยากร</th>
-                        <th>สถานที่</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>08:30-09:00</td>
-                        <td>ลงทะเบียน & Welcome Coffee</td>
-                        <td>-</td>
-                        <td>Grand Ballroom Foyer</td>
-                    </tr>
-                    <tr>
-                        <td>09:00-09:30</td>
-                        <td>พิธีเปิดและการต้อนรับ</td>
-                        <td>ดร.สมชาย ใจดี</td>
-                        <td>Grand Ballroom</td>
-                    </tr>
-                    <tr>
-                        <td>09:30-11:00</td>
-                        <td>AI Fundamentals & Machine Learning</td>
-                        <td>Prof. Sarah Johnson</td>
-                        <td>Grand Ballroom</td>
-                    </tr>
-                    <tr>
-                        <td>11:00-11:15</td>
-                        <td>Coffee Break</td>
-                        <td>-</td>
-                        <td>Grand Ballroom Foyer</td>
-                    </tr>
-                    <tr>
-                        <td>11:15-12:30</td>
-                        <td>Deep Learning & Neural Networks</td>
-                        <td>ดร.วิชาญ เทคโนโลยี</td>
-                        <td>Grand Ballroom</td>
-                    </tr>
-                    <tr>
-                        <td>12:30-13:30</td>
-                        <td>Lunch Break</td>
-                        <td>-</td>
-                        <td>Dining Hall</td>
-                    </tr>
-                    <tr>
-                        <td>13:30-15:00</td>
-                        <td>AI in Business Applications</td>
-                        <td>คุณนิรันดร์ นวัตกรรม</td>
-                        <td>Grand Ballroom</td>
-                    </tr>
-                    <tr>
-                        <td>15:00-15:15</td>
-                        <td>Coffee Break</td>
-                        <td>-</td>
-                        <td>Grand Ballroom Foyer</td>
-                    </tr>
-                    <tr>
-                        <td>15:15-16:30</td>
-                        <td>Hands-on Workshop: Building AI Models</td>
-                        <td>ทีมผู้เชี่ยวชาญ</td>
-                        <td>Lab Room A & B</td>
-                    </tr>
-                    <tr>
-                        <td>16:30-17:00</td>
-                        <td>Q&A และพิธีปิด</td>
-                        <td>วิทยากรทุกท่าน</td>
-                        <td>Grand Ballroom</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
+   
+ <section class="section" id="agenda">
+  <h2>กำหนดการงาน</h2>
 
-    <!-- Speakers Section -->
+  <!-- ปุ่มเลือกวัน -->
+  <div class="agenda-tabs">
+    <button class="tab-button active" data-day="day1">วันที่ 18 มิถุนายน 2568</button>
+    <button class="tab-button" data-day="day2">วันที่ 19 มิถุนายน 2568</button>
+    <button class="tab-button" data-day="day3">วันที่ 20 มิถุนายน 2568</button>
+</div>
+
+  <!-- ตาราง: วันที่ 1 -->
+  <div class="agenda-table day-table" id="day1">
+    <table>
+      <thead>
+        <tr>
+          <th>เวลา</th>
+          <th>กิจกรรม</th>
+          <th>วิทยากร</th>
+          <th>สถานที่</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>14.00 - 17.00 น.</td>
+          <td>เดินทางเข้าที่พัก</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>17.00 - 18.00 น.</td>
+          <td>ให้ความรู้เกี่ยวกับอุทยานวิทยาศาสตร์ Digital transformation ในภาพรวมและชี้แจงลําดับกิจกรรมทั้งหมด</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>        
+        <tr>
+          <td>17.00 - 18.00 น.</td>
+          <td>รับประทานอาหารเย็นร่วมกัน</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>         
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ตาราง: วันที่ 2 -->
+  <div class="agenda-table day-table" id="day2" style="display: none;">
+    <table>
+      <thead>
+        <tr>
+          <th>เวลา</th>
+          <th>กิจกรรม</th>
+          <th>วิทยากร</th>
+          <th>สถานที่</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08.30 - 09.00 น.</td>
+          <td>ลงทะเบียน</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>09.00 - 09.30 น.</td>
+          <td>พิธีเปิดกิจกรรม
+            ● กล่าวต้อนรับเครือข่ายอุทยานวิทยาศาสตร์ภูมิภาค โดย 
+            ● กล่าวรายงานกิจกรรมแลกเปลี่ยนเรียนรู้“Digital Transformation” โดย
+            ● กล่าวเปิดกิจกรรมแลกเปลี่ยนเรียนรู้ “Digital Transformation” โดย </td>
+          <td>ผู้ช่วยศาสตราจารย์คํารณ พิทักษ์ ผู้อํานวยการอุทยานวิทยาศาสตร์ภูมิภาค ภาคใต้
+            นางสาวทิพวัลย์เวชชการัณย์ ผู้เชี่ยวชาญเฉพาะด้านส่งเสริมและถ่ายทอดเทคโนโลยี
+            นางสาวสุณีย์ เลิศเพียรธรรม รองปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม
+        </td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>09.30 - 10.20 น.</td>
+          <td>บรรยายหัวข้อ “Digital Transform to AI era”</td>
+          <td>ดร.เฉลิมพล ปุณโณทก ประธานกรรมการบริหาร บริษัท ซีที เอเชีย โรโบติกส์ จํากัด</td>
+          <td>-</td>
+        </tr> 
+        <tr>
+          <td>10.20 - 11.10 น.</td>
+          <td>“แนะนําระบบสารสนเทศเพื่อการบริหารจัดการโครงการอุทยานวิทยาศาสตร์ภูมิภาค
+(RSP Total Operation & Management System : RSP TOMS)”</td>
+          <td>ดร.สมบัติ
+สมศักดิ์ นักวิเคราะห์นโยบายและแผนชํานาญการพิเศษ
+สํานักงานปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม</td>
+          <td>-</td>
+        </tr>   
+        <tr>
+          <td>11.10 - 11.20 น.</td>
+          <td>รับประทานอาหารว่าง</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>11.20 - 12.10 น.</td>
+          <td>เสวนาเรื่อง “ขับเคลื่อนอนาคตด้วยดิจิทัล”</td>
+          <td>ผู้อํานวยการอุทยานวิทยาศาสตร์ภูมิภาค 4 ภูมิภาค</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>12.10 - 13.30 น.</td>
+          <td>รับประทานอาหารกลางวัน</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>13.30 - 16.30 น.</td>
+          <td>อบรมเชิงปฏิบัติการ หัวข้อ "GenAI กับการเพิ่มประสิทธิภาพในการทํางานสมัยใหม่แบบ
+x10"</td>
+          <td>ผู้ช่วยศาสตราจารย์ ดร.พฤทธิ์ พุฒจร รักษาการแทนผู้ช่วยคณบดี
+สํานักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>16.30 - 18.00 น.</td>
+          <td>พักผ่อนตามอัธยาศัย</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>18.00 น. เป็นต้นไป</td>
+          <td>รับประทานอาหารเย็น และกิจกรรมสร้างเครือข่าย ในธีม "Cyber Galaxy"</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <!-- ... ข้อมูลวันที่ 2 ... -->
+      </tbody>
+    </table>
+  </div>
+
+    <!-- ตาราง: วันที่ 3 -->
+  <div class="agenda-table day-table" id="day3" style="display: none;">
+    <table>
+      <thead>
+        <tr>
+          <th>เวลา</th>
+          <th>กิจกรรม</th>
+          <th>วิทยากร</th>
+          <th>สถานที่</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08.30 - 09.00 น.</td>
+          <td>ลงทะเบียน</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+         <tr>
+          <td>09.00 - 10.20 น.</td>
+          <td>อบรมเชิงปฏิบัติการ หัวข้อ Strategic Pathway Development for Regional Science
+
+Park : Driving Innovation, Collaboration, and Regional Growth</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+         <tr>
+          <td>10.20 - 10.40 น.</td>
+          <td>รับประทานอาหารว่าง</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+         <tr>
+          <td>10.20 - 12.00 น.</td>
+          <td>อบรมเชิงปฏิบัติการ หัวข้อ Strategic Pathway Development for Regional Science
+
+Park : Driving Innovation, Collaboration, and Regional Growth (ต่อ)</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+         <tr>
+          <td>12.00 - 13.00 น.</td>
+          <td>รับประทานอาหารกลางวัน</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+         <tr>
+          <td>13.00 - 16.00 น.</td>
+          <td>อบรมเชิงปฏิบัติการ หัวข้อ Strategic Pathway Development for Regional Science
+
+Park : Driving Innovation, Collaboration, and Regional Growth (ต่อ)</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+         <tr>
+          <td>16.00 น.</td>
+          <td>เดินทางกลับโดยสวัสดิภาพ</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <!-- ... ข้อมูลวันที่ 3 ... -->
+      </tbody>
+    </table>
+  </div>
+</section>
+
+    
     <section class="section" id="speakers">
         <h2>วิทยากรผู้เชี่ยวชาญ</h2>
-        <div class="speakers-grid">
+            <div class="speakers-grid">
             <div class="speaker-card">
-                <div class="speaker-avatar">👨‍💼</div>
-                <div class="speaker-name">ดร.สมชาย ใจดี</div>
-                <div class="speaker-title">ผู้อำนวยการ สถาบันเทคโนโลยี AI</div>
-                <p>ผู้เชี่ยวชาญด้าน AI และ Machine Learning มากว่า 15 ปี</p>
+                <div class="speaker-avatar">
+                <img src="https://drive.google.com/file/d/1Hm98YwmuIOHUzRc5JIoABaR8bDzjY3zA/view?usp=drive_link" alt="ดร.สมชาย ใจดี">
+                </div>
+                <div class="speaker-name">ผู้ช่วยศาสตราจารย์คํารณ พิทักษ์</div>
+                <div class="speaker-title">อุทยานวิทยาศาสตร์ภูมิภาคภาคใต้</div>
+                <p>ผู้อํานวยการอุทยานวิทยาศาสตร์ภูมิภาคภาคใต้</p>
                 <a href="https://drive.google.com/file/slides1" target="_blank" class="btn">ดาวน์โหลด Slide</a>
             </div>
-            
+
             <div class="speaker-card">
-                <div class="speaker-avatar">👩‍🔬</div>
-                <div class="speaker-name">Prof. Sarah Johnson</div>
-                <div class="speaker-title">Senior AI Researcher, MIT</div>
-                <p>ผู้เชี่ยวชาญระดับโลกด้าน Deep Learning และ Neural Networks</p>
-                <a href="https://drive.google.com/file/slides2" target="_blank" class="btn">ดาวน์โหลด Slide</a>
+                <div class="speaker-avatar">
+                <img src="https://drive.google.com/file/d/1Hm98YwmuIOHUzRc5JIoABaR8bDzjY3zA/view?usp=drive_link" alt="ดร.สมชาย ใจดี">
+                </div>
+                <div class="speaker-name">นางสาวทิพวัลย์ เวชชการัณย์</div>
+                <div class="speaker-title">อุทยานวิทยาศาสตร์ภูมิภาคภาคใต้</div>
+                <p>ผู้เชี่ยวชาญเฉพาะด้านส่งเสริมและถ่ายทอดเทคโนโลยี</p>
+                <a href="https://drive.google.com/file/slides1" target="_blank" class="btn">ดาวน์โหลด Slide</a>
             </div>
-            
             <div class="speaker-card">
-                <div class="speaker-avatar">👨‍💻</div>
-                <div class="speaker-name">ดร.วิชาญ เทคโนโลยี</div>
-                <div class="speaker-title">CTO, AI Solutions Company</div>
-                <p>ผู้นำด้านการประยุกต์ใช้ AI ในธุรกิจและอุตสาหกรรม</p>
-                <a href="https://drive.google.com/file/slides3" target="_blank" class="btn">ดาวน์โหลด Slide</a>
+                <div class="speaker-avatar">
+                <img src="https://drive.google.com/file/d/1Hm98YwmuIOHUzRc5JIoABaR8bDzjY3zA/view?usp=drive_link" alt="ดร.สมชาย ใจดี">
+                </div>
+                <div class="speaker-name">นางสาวสุณีย์ เลิศเพียรธรรม</div>
+                <div class="speaker-title">กระทรวงการอุดมศึกษา วิทยาศาสตร์วิจัยและนวัตกรรม</div>
+                <p>รองปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์วิจัยและนวัตกรรม </p>
+                <a href="https://drive.google.com/file/slides1" target="_blank" class="btn">ดาวน์โหลด Slide</a>
             </div>
-            
             <div class="speaker-card">
-                <div class="speaker-avatar">👩‍💼</div>
-                <div class="speaker-name">คุณนิรันดร์ นวัตกรรม</div>
-                <div class="speaker-title">Head of Innovation, Tech Corp</div>
-                <p>ผู้เชี่ยวชาญด้านการนำ AI มาใช้ในการพัฒนาธุรกิจ</p>
-                <a href="https://drive.google.com/file/slides4" target="_blank" class="btn">ดาวน์โหลด Slide</a>
+                <div class="speaker-avatar">
+                <img src="https://drive.google.com/file/d/1Hm98YwmuIOHUzRc5JIoABaR8bDzjY3zA/view?usp=drive_link" alt="ดร.สมชาย ใจดี">
+                </div>
+                <div class="speaker-name">ดร.เฉลิมพล ปุณโณทก</div>
+                <div class="speaker-title">บริษัท ซีที เอเชีย โรโบติกส์ จํากัด</div>
+                <p>ประธานกรรมการบริหาร บริษัท ซีที เอเชีย โรโบติกส์ จํากัด</p>
+                <a href="https://drive.google.com/file/slides1" target="_blank" class="btn">ดาวน์โหลด Slide</a>
+            </div>
+            <div class="speaker-card">
+                <div class="speaker-avatar">
+                <img src="https://drive.google.com/file/d/1Hm98YwmuIOHUzRc5JIoABaR8bDzjY3zA/view?usp=drive_link" alt="ดร.สมชาย ใจดี">
+                </div>
+                <div class="speaker-name">ดร.สมบัติ สมศักดิ์</div>
+                <div class="speaker-title">สํานักงานปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม</div>
+                <p>นักวิเคราะห์นโยบายและแผนชํานาญการพิเศษ </p>
+                <a href="https://drive.google.com/file/slides1" target="_blank" class="btn">ดาวน์โหลด Slide</a>
+            </div>
+            <div class="speaker-card">
+                <div class="speaker-avatar">
+                <img src="https://drive.google.com/file/d/1Hm98YwmuIOHUzRc5JIoABaR8bDzjY3zA/view?usp=drive_link" alt="ดร.สมชาย ใจดี">
+                </div>
+                <div class="speaker-name">ผู้ช่วยศาสตราจารย์ ดร.พฤทธิ์ พุฒจร</div>
+                <div class="speaker-title">สํานักวิชาเทคโนโลยีดิจิทัลประยุกต์ มหาวิทยาลัยแม่ฟ้าหลวง</div>
+                <p>รักษาการแทนผู้ช่วยคณบดี</p>
+                <a href="https://drive.google.com/file/slides1" target="_blank" class="btn">ดาวน์โหลด Slide</a>
+            </div>
+            <div class="speaker-card">
+                <div class="speaker-avatar">
+                <img src="https://drive.google.com/file/d/1Hm98YwmuIOHUzRc5JIoABaR8bDzjY3zA/view?usp=drive_link" alt="ดร.สมชาย ใจดี">
+                </div>
+                <div class="speaker-name">ดร.สมบัติ สมศักดิ์</div>
+                <div class="speaker-title">สํานักงานปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม</div>
+                <p>นักวิเคราะห์นโยบายและแผนชํานาญการพิเศษ </p>
+                <a href="https://drive.google.com/file/slides1" target="_blank" class="btn">ดาวน์โหลด Slide</a>
+            </div>
+            <div class="speaker-card">
+                <div class="speaker-avatar">
+                <img src="https://drive.google.com/file/d/1Hm98YwmuIOHUzRc5JIoABaR8bDzjY3zA/view?usp=drive_link" alt="ดร.สมชาย ใจดี">
+                </div>
+                <div class="speaker-name">ดร.สมบัติ สมศักดิ์</div>
+                <div class="speaker-title">สํานักงานปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม</div>
+                <p>นักวิเคราะห์นโยบายและแผนชํานาญการพิเศษ </p>
+                <a href="https://drive.google.com/file/slides1" target="_blank" class="btn">ดาวน์โหลด Slide</a>
             </div>
         </div>
     </section>
 
-    <!-- Social & Communication -->
+   
     <section class="section">
         <h2>ช่องทางการติดต่อ</h2>
         <div class="social-links">
@@ -189,18 +354,15 @@
                 <span>💬</span>
                 <span>เข้า Line Group</span>
             </a>
-            <a href="https://facebook.com/aiworkshop2025" target="_blank" class="social-link">
+            <a href="https://www.facebook.com/RSPSouth" target="_blank" class="social-link">
                 <span>📘</span>
                 <span>Facebook Page</span>
             </a>
-            <a href="https://twitter.com/aiworkshop2025" target="_blank" class="social-link">
-                <span>🐦</span>
-                <span>Twitter</span>
-            </a>
+
         </div>
     </section>
 
-    <!-- Downloads Section -->
+    
     <section class="section" id="downloads">
         <h2>ดาวน์โหลดเอกสาร</h2>
         <div class="download-grid">
@@ -242,11 +404,11 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    
 <footer class="footer text-center py-4">
       © 2025 RSP App Center.<u>ยุทธศาสตร์และแผน อุทยานวิทยาศาสตร์ภาคใต้<u>
     </u></u></footer>
 
-    <script src="scrips.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
